@@ -1,10 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
-header nav{
+
+header{
     background-color: rgba(44,62,80,255);
     height: 60px;
 }
@@ -12,10 +13,17 @@ header nav{
 .bg-green{
     background-color: rgba(26,188,156,255);
     color: #fff;
+    width: 100%;
 }
 
-section img{
-    height: 40vh;
+.bg-white{
+    color: color: rgba(44,62,80,255);
+}
+
+
+
+section{
+    padding: 5rem 0;
 }
 
 .line{
@@ -26,10 +34,16 @@ section img{
     background-color: #fff;
 }
 
-.row h1{
+h1{
+    margin: 1.5rem 0;
+}
+
+p{
     margin: 1rem 0;
 }
 
-.row p{
-    margin: 1rem 0;
+.img-fluid{
+    margin-top: 1.3rem;
+    border-radius: 10px;
 }
+
