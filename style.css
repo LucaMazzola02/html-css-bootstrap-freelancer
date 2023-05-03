@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    background-color: rgba(44,62,80,255);
+    height: 60px;
+}
+
+.bg-green{
+    background-color: rgba(26,188,156,255);
+    color: #fff;
+}
+
+section img{
+    height: 40vh;
+}
+
+.line{
+    display: inline-block;
+    width: 80px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.row h1{
+    margin: 1rem 0;
+}
+
+.row p{
+    margin: 1rem 0;
+}
