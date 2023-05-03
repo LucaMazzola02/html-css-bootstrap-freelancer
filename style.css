@@ -13,17 +13,24 @@ header{
 .bg-green{
     background-color: rgba(26,188,156,255);
     color: #fff;
-    width: 100%;
 }
 
 .bg-white{
-    color: color: rgba(44,62,80,255);
+    color: rgba(44,62,80,255);
 }
 
+.bg-sky-grey{
+    background-color: rgba(58,84,109,255);
+    color: #fff;
+}
 
+.bg-grey{
+    background-color: rgba(44,62,80,255);
+    color: #fff;
+}
 
-section{
-    padding: 5rem 0;
+.row{
+    padding-bottom: 2rem;
 }
 
 .line{
@@ -38,12 +45,30 @@ h1{
     margin: 1.5rem 0;
 }
 
-p{
-    margin: 1rem 0;
+h3{
+    margin-top: 2rem;
 }
+
+p{
+    margin: 2rem 0;
+}
+
 
 .img-fluid{
     margin-top: 1.3rem;
     border-radius: 10px;
+}
+
+.download{
+    padding: 7px 26px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+}
+
+
+
+.copyright{
+    font-size: 12px;
+    margin: 15px 0 0;
 }
 
